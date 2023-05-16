@@ -66,7 +66,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	if (tree)
 		/*calcular con raiz cuadrada*/
-		if (pow_two(binary_tree_height(tree))- 1 == binary_tree_leaves(tree))
+		if (pow_two(binary_tree_height(tree) - 1) == binary_tree_leaves(tree))
 			return (1);
 	return (0);
 }
